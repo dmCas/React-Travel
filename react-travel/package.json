@@ -46,11 +46,10 @@
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.6.4",
     "postcss-aspect-ratio-mini": "^1.1.0",
-    "postcss-cssnext": "^3.1.0",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
     "postcss-normalize": "8.0.1",
-    "postcss-preset-env": "6.7.0",
+    "postcss-preset-env": "^6.7.0",
     "postcss-px-to-viewport": "^1.1.1",
     "postcss-safe-parser": "4.0.1",
     "postcss-viewport-units": "^0.1.6",
@@ -80,18 +79,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "jest": {
     "roots": [
@@ -144,6 +131,18 @@
   "babel": {
     "presets": [
       "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

@@ -4,12 +4,12 @@ import Detail from '../pages/detail'
 const routerConf = [
   {
     path:'/',
-    component: User,
+    component: Detail,
     children:[]
   },
   {
     path:'/detail',
-    component: Detail,
+    component: User,
     children:[]
   }
 ]
