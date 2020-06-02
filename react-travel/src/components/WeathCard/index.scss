@@ -1,11 +1,14 @@
 .weather-card{
   width: 80%;
   padding: 20px 40px;
-  margin: 200px auto;
-  background: #fff;
-  box-shadow:rgba(0, 0, 0, 0.6) 0px 0px 5px;
+  margin: 200px auto 0;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow:rgba(255, 255, 255, 0.6) 0px 0px 5px;
+  border-radius: 10px;
+  z-index: 999;
   .info-weather{
     margin-top: 40px;
+    margin-bottom: 20px;
   }
 }
 .am-flexbox .am-flexbox-item {
@@ -15,3 +18,9 @@
   margin-left: 8px;
   min-width: 10px;
 }
+.spirt-line{
+  width: 80%;
+  height: 0.2px;
+  margin: 20px auto 0;
+  background-image: linear-gradient(to right, #bdc3c7 , #2c3e50, #bdc3c7);
+} 
