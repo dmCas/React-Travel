@@ -3,7 +3,7 @@
   padding: 20px 40px;
   margin: 200px auto 0;
   background: rgba(255, 255, 255, 0.4);
-  box-shadow:rgba(255, 255, 255, 0.6) 0px 0px 5px;
+  box-shadow:rgba(37, 36, 36, 0.6) 0px 0px 5px;
   border-radius: 10px;
   z-index: 999;
   .info-weather{
@@ -24,3 +24,23 @@
   margin: 20px auto 0;
   background-image: linear-gradient(to right, #bdc3c7 , #2c3e50, #bdc3c7);
 } 
+// .card-appear{
+//   opacity: 0;
+//   left: 0;
+//   // transition: all 1s ease-out
+// }
+.card-enter, .card-appear{
+  opacity: 0;
+  // transition: all 1s ease-out
+}
+.card-enter-active,.fade-appear-active{
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+.card-exit{
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+.card-exit-active{
+  opacity: 0.01;
+}
