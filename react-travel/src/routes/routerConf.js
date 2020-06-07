@@ -1,5 +1,6 @@
 import User from '../pages/user'
 import Detail from '../pages/detail'
+import Route from '../pages/route'
 
 const routerConf = [
   {
@@ -10,6 +11,11 @@ const routerConf = [
   {
     path:'/detail',
     component: User,
+    children:[]
+  },
+  {
+    path:'/route',
+    component: Route,
     children:[]
   }
 ]

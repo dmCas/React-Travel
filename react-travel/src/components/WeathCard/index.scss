@@ -1,16 +1,42 @@
 .weather-card{
   width: 80%;
   padding: 20px 40px;
-  margin: 200px auto 0;
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow:rgba(37, 36, 36, 0.1) 0px 0px 5px;
+  margin: 100px auto 0;
+  background: rgba(255, 255, 255, 1);
+  box-shadow:rgba(37, 36, 36, 0.4) 0px 0px 5px;
   border-radius: 10px;
   z-index: 999;
+  .city-weather{
+    .svg-style{
+      position: absolute;
+      right: 40px;
+      top: -6px;
+      animation: updown 2s linear infinite;
+    }
+  }
+  @keyframes updown {
+    0%{
+      top: -2px;
+    }
+    25%{
+      top: -4px;
+    }
+    50%{
+      top:-6px;
+    }
+    75%{
+      top:-4px
+    }
+    100%{
+      top: -2px;
+    }
+  }
   .info-weather{
     margin-top: 40px;
     margin-bottom: 20px;
   }
 }
+
 .am-flexbox .am-flexbox-item {
   box-sizing: border-box;
   flex: 1 1;
