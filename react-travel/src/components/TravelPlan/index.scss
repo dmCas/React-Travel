@@ -1,0 +1,48 @@
+.travel-plan{
+  margin-top: 100px;
+  overflow-x: scroll;
+  svg {
+    position: relative;
+    top: 14px;
+  }
+}
+.travel-plan::-webkit-scrollbar{
+  display: none;
+}
+.am-steps-label-vertical .am-steps-item-content {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  width: 100px;
+  // margin-left: 20px;
+}
+.am-steps-item-title{
+  font-size: 11px;
+  margin-bottom: 4px;
+  color: #fff !important;
+  font-family: monospace;
+  /* font-weight: 700; */
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+}
+.am-steps-item-description {
+  font-size: 10px;
+  top: -9px;
+  position: relative;
+  color:#fff !important;
+}
+.am-steps {
+  font-size: 0;
+  padding: 20px 0 0 0;
+  width: 100%;
+  line-height: 1.5;
+  display: flex;
+}
+.avator-style{
+  top: -8px;
+  left: -10px;
+  position: relative;
+  width: 80px !important;
+  height: 80px !important;
+}
