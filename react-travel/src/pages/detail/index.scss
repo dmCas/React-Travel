@@ -4,9 +4,9 @@
   background: transparent;
 }
 .detail-wrapper{
-  width: 100%;
-  height: 100%;
-  
+  width: 100vw;
+  height: 100vh;
+  position: relative;
   .bg-pic{
     position: absolute;
     width: 100%;
@@ -42,15 +42,24 @@
 .button-style{
   // background: #fff;
   color: #000;
-  position: absolute;
-  left: 0;
-  right: 0;
+  // position: absolute;
+  // left: 0;
+  // right: 0;
   // width: 80%;
   // height: 300px;
-  bottom: 20px;
-  margin: auto;
+  // bottom: 20px;
+  // margin: auto;
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  .button{
+    margin: auto;
+    color: #000;
+  }
   // bottom: 100px;
 }
+
 .am-button-active{
   color: #000 !important;
   background: #fff !important;

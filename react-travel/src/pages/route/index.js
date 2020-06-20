@@ -1,20 +1,17 @@
 import React, { useEffect } from 'react'
-import axios from 'axios'
+import { Map } from 'react-amap';
 
 const Route = () => {
-  useEffect(() => {
-    axios.get('https://restapi.amap.com/v3/staticmap', {
-      key: '11e765c1a256bb9f2386012f60c7d06e',
-      location:'116.481485,39.990464',
-      zoom:'10'
-    }).then((res) => {
-      console.log(res)
-    })
-  })
+  
+  return <div style={{ width: '100%', height: '400px' }}>
+    <Map
+    center={{longitude: 120, latitude: 30}}
+    zoom='8'>
+    
+      {/* <ZoomCtrl /> */}
+    </Map>
+  </div>
 
-  return (
-    <div>123</div>
-  )
 }
 
 export default Route 
